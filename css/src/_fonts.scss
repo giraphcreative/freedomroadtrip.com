@@ -1,0 +1,30 @@
+
+// include our fonts
+@import url(http://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic);
+
+
+// sans-serif mixin
+@mixin font-title {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+
+// sans-serif mixin
+@mixin font-title-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+
+// sans-serif mixin
+@mixin font {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+}
+
+
+// bold face
+@mixin font-bold {
+	font-weight: 700;
+}

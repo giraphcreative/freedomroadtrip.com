@@ -1,0 +1,57 @@
+
+.sixty, .fourty, .quarter, .three-quarter, .third, .half, .thirty, .two-third {
+	padding: 20px 0;
+}
+
+@include respond-to( 768px ) {
+	.sixty, .fourty, .quarter, .three-quarter, .third, .half, .thirty, .two-third {
+		float: left;
+
+		&.right {
+			float: right;
+		}
+	}
+
+	.sixty {
+		width: 60%;
+	}
+
+	.quarter {
+		width: 25%;
+	}
+
+	.three-quarter {
+		width: 75%;
+	}
+
+	.third {
+		width: 33.3333%;
+	}
+
+	.two-third {
+		width: 66.6666%;
+	}
+
+	.half {
+		width: 50%;
+		padding: 20px;
+	}
+
+	.thirty {
+		width: 30%;
+	}
+
+	.fourty {
+		width: 40%;
+	}
+}
+
+@include respond-to( 1024px ) {
+	.half {
+		padding: 25px 40px;
+	}
+}
+
+
+.text-center { text-align: center; }
+.text-right { text-align: right; }

@@ -1,0 +1,49 @@
+
+// color variables
+$grey: #414042;
+$grey-light: rgba( $grey, .2 );
+
+$blue: #5D94AC;
+$blue-light: rgba( $blue, .2 );
+
+$teal: #5E9EC5;
+$teal-light: rgba( $teal, .2 );
+
+$green: #66BD5A;
+$green-light: rgba( $green, .2 );
+
+$lime: #8DC63F;
+$lime-light: rgba( $lime, .2 );
+
+$yellow: #FFF200;
+$yellow-light: rgba( $yellow, .2 );
+
+$tan: #D5DD6D;
+$tan-light: rgba( $tan, .2 );
+
+$red: #EC5946;
+$red-light: rgba( $red, .2 );
+
+$navy: #002B5C;
+
+
+// background colors
+.bg-blue { background: $blue; color: white; }
+.bg-teal { background: $teal; color: white; }
+.bg-green { background: $green; color: white; }
+.bg-lime { background: $lime; color: white; }
+.bg-red { background: $red; color: white; }
+.bg-navy { background: $navy; color: white; }
+.bg-grey { background: $grey; color: white; }
+.bg-tan { background: $tan; color: white; }
+
+// text colors
+.text-blue { color: $blue; }
+.text-teal { color: $teal; }
+.text-green { color: $green; }
+.text-lime { color: $lime; }
+.text-red { color: $red; }
+.text-navy { color: $navy; }
+.text-grey { color: $grey; }
+.text-tan { color: darken( $tan, 40% ); }
+
